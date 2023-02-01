@@ -1,0 +1,205 @@
+*{
+    border: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    background-image: url(/img/BANCOOP.png);
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    width: 1508px;
+    height: 200px;
+}
+aside{
+    display: flex;
+    width: 1509px;
+    background-color: #ffbc14;
+    align-items: center;
+    height: 90px;
+    justify-content: space-around;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contendortotal{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+li{
+    list-style: none;
+}
+a{
+text-decoration: none;
+  border-right: 3px solid white;
+  padding: 10px;
+  color: black;
+font-weight: bolder;
+font-size: 17px;
+}
+.contenedorext{
+    display:flex ;
+    gap:50px;
+    flex: 1;
+}
+.separador{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 270px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    background-color: #b8b4b4;
+}
+.k{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    color: white;
+    background-color: #282424;
+}
+.l{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.m{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.n{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#w{
+    width: 240px;
+    height: 40px;
+}
+button{
+    background-color: #ffbc14;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.two{
+    display: flex;
+    background-color: #282424;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid;
+}
+h2{
+    color: #ffbc14;
+}
+h4{
+    color: white;
+    border-bottom:2px solid gray ;
+}
+.titulo{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    background-color: black;
+}
+.content-right{
+    display: flex;
+    width: 1057px;
+    height: 800px;
+    flex-direction: column;
+
+}
+.sola{
+    display: flex;
+    background-color: #e7e7e7;
+    gap: 20px;
+    height: 400px;
+}
+.cred{
+    display: flex;
+    background-color: #eceaea;
+    gap: 20px;
+    height: 400px;
+
+}
+.prim{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 522px;
+
+}
+img{
+    width: 300px;
+    border-radius: 15px;
+}
+#e{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
+#o{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+}
+.tet{
+    display: flex;
+    border-top-right-radius:20px ;
+    justify-content: center;
+    width:520px ;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.tetl{
+    display: flex;
+    border-top-left-radius: 20px;
+    justify-content: center;
+    width:520px ;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.seg{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 522px;
+
+}
+footer{
+    background-color: #282424;
+    display: flex;
+    color: white;
+    width: 1508px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
